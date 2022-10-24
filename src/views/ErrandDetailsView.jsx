@@ -9,7 +9,7 @@ const EventdetailsView = () => {
             <h6 className='me-3'>2020-10-12</h6>
           </div>
           <div className="mt-3 mb-3" >
-            <p>Dax att städa</p>
+            <p>Dax att laga mat</p>
           </div>
           <div>
             <button type="button" className="btn btn-success me-3">Start Errand</button>
