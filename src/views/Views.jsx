@@ -9,7 +9,7 @@ const Views = () => {
     <Routes >
       <Route path="/adderrand" element={ <CreateErrandView />} />
       <Route path="/" element={ <ErrandsView />} />
-      <Route path="/ErrandDetails" element={ <ErrandDetailsView />} />
+      <Route path="/errand/:id" element={ <ErrandDetailsView />} />
     </Routes>
   )
 }
