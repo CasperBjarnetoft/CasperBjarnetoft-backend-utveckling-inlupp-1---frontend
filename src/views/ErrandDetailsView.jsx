@@ -23,7 +23,7 @@ const EventdetailsView = () => {
             <h4>{Case.subject}</h4>
             <div className="d-flex flex-row align-items-center">
               <h6 className='me-5'>STATUS: { Case.status}</h6>
-              <button type="button" className="btn btn-dark ms-3">Start Errand</button>
+              <button type="button" className="btn btn-dark ms-3">Starta ärendet</button>
             </div>
           </div>
           <div className="mt-3 mb-3" >
@@ -44,7 +44,7 @@ const EventdetailsView = () => {
         <div className=''>      
             <div className="card p-3">
               <h5>Good</h5>
-              <p>This is a good Errand</p>
+              <p>Bra ärende</p>
             </div>
         </div>
       </div>

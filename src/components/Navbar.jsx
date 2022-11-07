@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container ">
-      <header className='fs-3 fw-bold'><Link to= "/" className='text-dark'>Errands</Link></header>
+      <header className='fs-3 fw-bold'><Link to= "/" className='text-dark'>Ärenden</Link></header>
         <div className='d-flex align-items-center'>
-            <button className='btn btn-dark me-3'><NavLink to="/adderrand" className="text-light" >Add Errand</NavLink></button>
+            <button className='btn btn-dark me-3'><NavLink to="/adderrand" className="text-light" >Lägg till Ärende</NavLink></button>
         </div>
       </div>
   </nav>

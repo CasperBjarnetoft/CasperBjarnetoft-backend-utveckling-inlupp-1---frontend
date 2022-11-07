@@ -42,16 +42,16 @@ const CreateErrandView = () => {
     <div className='container mt-5 bg-light rounded'>
       <form  onSubmit={HandleSubmit} className='p-4'>
         <div className="form mb-4">
-          <label className="form-label">Subject</label>
+          <label className="form-label">Title</label>
           <input type="text" name="subject" onChange={onChange} value={formData.subject} className="form-control" />
         </div>
 
         <div className="form mb-4">
-          <label className="form-label">Description</label>
+          <label className="form-label">Beskrivning</label>
           <textarea name="message" onChange={onChange} value={formData.message} className="form-control"   rows="4"></textarea>
         </div>
 
-        <button type="submit" className="btn btn-dark btn-block mb-4">Add Errand</button>
+        <button type="submit" className="btn btn-dark btn-block mb-4">Lägg till ärendet</button>
       </form>
     </div>
   )
